@@ -1,0 +1,12 @@
+//
+//  Stg.xcconfig
+//  xcconfigSample
+//
+//  Created by satorun on 2026/01/30.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+DisplayName = Debug App
+BundleIdentifier = org.satorun.sample.debug
+AppIconName = AppIconDebug
