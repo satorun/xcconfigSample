@@ -7,6 +7,10 @@
 
 // Configuration settings file format documentation can be found at:
 // https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+// CocoaPodsがある場合
+//#include "Pods/Target Support Files/Pods-xcconfigSample/Pods-xcconfigSample.debug.xcconfig"
+
 DisplayName = Debug App
 BundleIdentifier = org.satorun.sample.debug
 AppIconName = AppIconDebug
