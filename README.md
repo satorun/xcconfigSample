@@ -2,6 +2,8 @@
 
 Xcodeのxcconfigファイルを使った環境切り替えのサンプルプロジェクトです。
 
+📝 **解説記事**: [iOSアプリでxcconfigを利用して環境出し分けを実装する](https://zenn.dev/satorun/articles/4584d33f133f6b)
+
 ## xcconfig構成
 
 ```
