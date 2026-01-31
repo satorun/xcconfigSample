@@ -78,8 +78,3 @@ enum Const {
 | `DisplayName` | アプリ表示名 | `Debug App`, `Release App` |
 | `BundleIdentifier` | Bundle ID | `org.satorun.sample.debug`, `org.satorun.sample` |
 | `AppIconName` | アプリアイコン名 | `AppIconDebug`, `AppIcon` |
-
-## 注意事項
-
-- Build Configurationの追加（Debug/Release以外）は、CocoaPodsやSPMとの互換性問題を引き起こす可能性があるため推奨されません
-- 環境の切り替えは`-xcconfig`オプションまたはスキームのPre-actionスクリプトで対応することを推奨します
