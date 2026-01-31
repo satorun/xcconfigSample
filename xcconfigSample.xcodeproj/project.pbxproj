@@ -29,9 +29,22 @@
 		231A9C312F2BB5410092801F /* xcconfigSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcconfigSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		314E83992F2DDAE800C5DA5D /* Exceptions for "xcconfigSample" folder in "xcconfigSample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 231A9C192F2BB53F0092801F /* xcconfigSample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		231A9C1C2F2BB53F0092801F /* xcconfigSample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				314E83992F2DDAE800C5DA5D /* Exceptions for "xcconfigSample" folder in "xcconfigSample" target */,
+			);
 			path = xcconfigSample;
 			sourceTree = "<group>";
 		};
@@ -402,7 +415,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = xcconfigSample/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(DisplayName)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -436,7 +449,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = xcconfigSample/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(DisplayName)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
